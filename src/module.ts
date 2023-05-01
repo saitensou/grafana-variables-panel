@@ -8,7 +8,7 @@ export const plugin = new PanelPlugin<PanelOptions>(VariablePanel).setPanelOptio
       path: 'varID',
       name: 'Variable ID',
       description: 'Variable ID',
-      defaultValue: 'location_id',
+      defaultValue: '-',
     })
     .addBooleanSwitch({
       path: 'tableHeader',
